@@ -37,6 +37,7 @@
 }
 
 .multimedia__item--video iframe {
+    display: none;
     width: 100%;
     height: 120px;
     border-radius: 4px;
@@ -58,6 +59,7 @@
         border-radius: 8px;
     }
     .multimedia__item--video iframe {
+        display: grid;
         height: 160px;
     }
 }
@@ -77,6 +79,12 @@
         max-width: 1000px;
         margin: 0 auto;
         gap: 15px;
+    }
+
+    .multimedia__item--video {
+        grid-column: -1;
+        grid-row: 1/2;
+
     }
 
     .multimedia__item img {
