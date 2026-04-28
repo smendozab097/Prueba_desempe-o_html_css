@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Dragons - Evolve</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="/public/icons/Imagine_Dragons_logo.png" alt="Logo Imagine Dragons" class="header__logo-img">
+                <div class="header__logo-text">
+                    <!-- <span>IMAGINE</span>
+                    <span>DRAGONS</span> -->
+                </div>
+            </div>
+            <button class="header__hamburger" id="hamburgerBtn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="header__nav" id="mainNav">
+                <ul class="header__nav-list">
+                    <li><a href="#events" class="header__nav-link">EVENTS</a></li>
+                    <li><a href="#about" class="header__nav-link">ABOUT</a></li>
+                    <li><a href="#multimedia" class="header__nav-link">MUSIC</a></li>
+                    <li><a href="#multimedia" class="header__nav-link">MEDIA</a></li>
+                    <li><a href="#footer" class="header__nav-link">US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <h1 class="hero__title">EVOLVE - WORLD TOUR 2026</h1>
+            <a href="#events" class="hero__cta">VIEW ALL EVENTS</a>
+        </div>
+    </section>
+
+    <!-- ========== SECTION EVENTS ========== -->
+    <section class="events" id="events">
+        <h2 class="events__title">Upcoming Events</h2>
+        <div class="events__table-wrapper">
+            <!-- Tabla visible en desktop -->
+            <table class="events__table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>26 SEP</td>
+                        <td>Phoenix</td>
+                        <td>Talking Stick Resort Arena</td>
+                        <td><a href="#" class="events__buy-btn">BUY NOW</a></td>
+                    </tr>
+                    <tr>
+                        <td>29 SEP</td>
+                        <td>Las Vegas</td>
+                        <td>T-Mobile Arena</td>
+                        <td><a href="#" class="events__buy-btn">BUY NOW</a></td>
+                    </tr>
+                    <tr>
+                        <td>6 OCT</td>
+                        <td>Seattle</td>
+                        <td>Key Arena</td>
+                        <td><a href="#" class="events__buy-btn">BUY NOW</a></td>
+                    </tr>
+                    <tr>
+                        <td>8 OCT</td>
+                        <td>Vancouver</td>
+                        <td>Rogers Arena</td>
+                        <td><a href="#" class="events__buy-btn">BUY NOW</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Cards visibles solo en mobile -->
+            <div class="events__cards">
+                <div class="events__card-header">
+                    <span>Date</span>
+                    <span>Tickets</span>
+                </div>
+                <div class="events__card">
+                    <div class="events__card-info">
+                        <span class="events__card-date">26 SEP</span>
+                        <span class="events__card-venue">Phoenix<br>Talking Stick Resort</span>
+                    </div>
+                    <a href="#" class="events__buy-btn">BUY NOW</a>
+                </div>
+                <div class="events__card">
+                    <div class="events__card-info">
+                        <span class="events__card-date">29 SEP</span>
+                        <span class="events__card-venue">Las Vegas<br>T-Mobile Arena</span>
+                    </div>
+                    <a href="#" class="events__buy-btn">BUY NOW</a>
+                </div>
+                <div class="events__card">
+                    <div class="events__card-info">
+                        <span class="events__card-date">6 OCT</span>
+                        <span class="events__card-venue">Seattle<br>Key Arena</span>
+                    </div>
+                    <a href="#" class="events__buy-btn">BUY NOW</a>
+                </div>
+                <div class="events__card">
+                    <div class="events__card-info">
+                        <span class="events__card-date">8 OCT</span>
+                        <span class="events__card-venue">Vancouver<br>Rogers Arena</span>
+                    </div>
+                    <a href="#" class="events__buy-btn">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION ABOUT ========== -->
+    <section class="about" id="about">
+        <div class="about__container">
+            <div class="about__image">
+                <img src="public/imgs/id_about_evolve.jpg" alt="Shattered Riffs Band">
+            </div>
+            <div class="about__content">
+                <h2 class="about__title">About the Band</h2>
+                <p class="about__text">
+                    Imagine Dragons conducted two previous tours, their Night Visions Tour and Smoke + Mirrors Tour, supporting their first two albums, released in 2012 and 2015. Following the release of two singles, "Believer" and "Thunder" in early 2017, the band released their third studio album, Evolve, in June 2017.
+                </p>
+                <h3 class="about__subtitle">Album influence</h3>
+                <ul class="about__values-list">
+                    <li>Authentic Sound</li>
+                    <li>High Energy</li>
+                    <li>Fan Connection</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION MULTIMEDIA ========== -->
+    <section class="multimedia" id="multimedia">
+        <h2 class="multimedia__title">Multimedia</h2>
+        <div class="multimedia__grid">
+
+            <div class="multimedia__item">
+                <img src="public/imgs/Night_visions.webp" alt="Night Visions Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/evolve.jpg" alt="Evolve Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/smoke+mirrors.webp" alt="Smoke + Mirrors Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/origins.jpg" alt="Origins Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/mercury_act_I.webp" alt="Mercury - Act I Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/mercury_act_II.jpeg" alt="Mercury - Act II Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/loom.webp" alt="Loom Album">
+            </div>
+
+            <div class="multimedia__item">
+                <img src="public/imgs/reflections.jpeg" alt="Reflexions Album">
+            </div>
+
+            <div class="multimedia__item multimedia__item--video">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/GtEvysh1654?list=RDGtEvysh1654" title="Imagine Dragons - Thunder (Lyrics)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer__container">
+            <div class="footer__col">
+                <h4 class="footer__heading">EVENTS</h4>
+                <ul>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Calendario</a></li>
+                    <li><a href="#">Festivales</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">ABOUT</h4>
+                <ul>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Miembros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">MUSIC</h4>
+                <ul>
+                    <li><a href="#">Álbumes</a></li>
+                    <li><a href="#">Singles</a></li>
+                    <li><a href="#">Playlist</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">BAND SOCIAL MEDIA</h4>
+                <ul class="social">
+                <li><a href="https://www.instagram.com/imaginedragons/?hl=es-la">Instagram</a></li>
+                <li><a href="https://open.spotify.com/intl-es/artist/53XhwfbYqKCa1cC15pYq2q">Spotify</a></li>
+                <li><a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA">YouTube</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>Todos los derechos reservados © IMAGINE DRAGONS 2026</p>
+        </div>
+    </footer>
+
+    <script src="src/js/menuHamburguesa.js"></script>
+</body>
+</html>

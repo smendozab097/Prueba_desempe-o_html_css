@@ -1,0 +1,56 @@
+@import url('/src/css/header.css');
+@import url('/src/css/hero.css');
+@import url('/src/css/events.css');
+@import url('/src/css/about.css');
+@import url('/src/css/multimedia.css');
+@import url('/src/css/footer.css');
+
+/* ============================
+   RESET & VARIABLES
+   ============================ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #131b28e0;
+    --color-bg-dark: #111111;
+    --color-yellow: #EEA402;
+    --yellow-accent: #E5D62C;
+    --color-turquoise: #4eb151;
+    --color-lightBlue: #76d5df; 
+    --color-white: #ffffff;
+    --color-gray: #cccccc;
+    --font-heading: 'Oswald', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg-dark);
+    color: var(--color-white);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
