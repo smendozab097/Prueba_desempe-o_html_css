@@ -1,9 +1,9 @@
-@import url('/src/css/header.css');
-@import url('/src/css/hero.css');
-@import url('/src/css/events.css');
-@import url('/src/css/about.css');
-@import url('/src/css/multimedia.css');
-@import url('/src/css/footer.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./events.css');
+@import url('./about.css');
+@import url('./multimedia.css');
+@import url('./footer.css');
 
 /* ============================
    RESET & VARIABLES
