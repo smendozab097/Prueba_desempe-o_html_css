@@ -10,7 +10,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 55px;
-    background-image: url('/public/imgs/vertical_evolve.jpg');
+    background-image: url('../../public/imgs/vertical_evolve.jpg');
     background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
     background-repeat: no-repeat; /* para que no se repita la imagen */
     background-position: center; 
@@ -68,7 +68,7 @@
     .hero {
         min-height: 90vh;
         margin-top: 60px;
-        background-image: url('/public/imgs/id_hero_section.jpg');
+        background-image: url('../../public/imgs/id_hero_section.jpg');
     }
 
     .hero__title {
